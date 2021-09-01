@@ -1,0 +1,21 @@
+accounts:
+  - name: user1
+    coins: ["81000000TUXC"]
+  - name: user2
+    coins: ["81000000TUXC"]
+validator:
+  name: user1
+  staked: "1000000TUXC"
+client:
+  vuex:
+    path: "vue/src/store"
+  openapi:
+    path: "docs/static/openapi.yml"
+faucet:
+  name: user2
+  coins: ["100TUXC"]
+genesis:
+  app_state:
+    staking:
+      params:
+        bond_denom: "TUXC"
